@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+header{
+    display: flex !important;
+    height: 79px;
+    background-color: #004B93;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width: 130px;
+    cursor: pointer;
+}
+
+#contenedorHead{
+    width: 100%;
+}
+
+.navegacion{
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    
+    cursor: pointer;
+}
+
+.navegacion li a {
+    color: #fff
+}
+a{
+    
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Aqui va el styles de quiene somos*/
+
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+
+
+
+.flecha{
+    background-image: url(/img/right-arrow.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 11px;
+    background-size: 75%;
+    width: 15px;
+    vertical-align: text-bottom;
+}
+
+.flecha, p,a {
+    color: #212529;
+}
+
+.flecha, p{
+    padding: 5px;
+    font-size: 11px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.contenedoDemininav{
+    padding: 12px 16px;
+}
+
+
+
+
