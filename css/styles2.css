@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -24,6 +25,7 @@ ul{
     align-items: center;
 
 }
+
 .logo img{
     width: 130px;
     cursor: pointer;
@@ -103,3 +105,203 @@ a{
 
 
 
+
+/*   "quienes somos"   */
+
+
+.cajatextogenerico{
+    background-color: #fff;
+    color: #004b93;
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cajitaLinea{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.lineaAmarilla{
+    display: flex;
+    justify-items: center;
+    height: 2px;
+    width: 341px;
+    background: linear-gradient(90deg, #ffffff, #e9c60c, #ffffff);
+}
+
+
+.botonesGuia{
+    font-weight:600;
+    color: #004B93;
+    width: 600px;
+    margin: auto;
+display: flex;
+justify-content: center;
+justify-content: space-between; 
+font-size: 20px;
+padding-bottom: 30px;
+    
+}
+
+.botonesGuia a{
+    color: #706f6f;
+}
+
+.botonesGuia a:hover{
+    text-decoration: underline;
+    color: #004b93;
+}
+
+hr{
+    width: 70%;
+    margin: auto;
+    
+}
+
+
+.fechaeIconos{
+    padding-top: 50px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+
+.fechacolor{
+    color: #212529;;
+}
+
+.facebookLogo{
+    width: 20px;
+}
+
+.contenedorIconos{
+    display: flex;
+    width:200px;
+    justify-content: space-between;
+}
+
+
+.textoinicio{
+    
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    line-height: 15px;
+}
+
+.textoP{
+    text-align: justify;
+    margin: 20px;
+    font-size: 15px !important;
+    color: #212529;;
+    letter-spacing: 0;
+}
+
+
+
+#Grupoice{
+    margin-top: 40px;
+    font-size: 35px;
+    margin-left: 85px;
+    font-weight: 300 !important;
+}
+
+
+
+
+/* aqui va el footer todo lo de que va abajo*/
+
+.footer{
+    
+    bottom: -5px;
+    margin-top: -5px;
+    position: relative;
+    display: flow-root;
+    height: 118px;
+    width: 100%;
+    padding: 21px 0px 0px 39px;
+    background-color: #706f6f;
+}
+
+
+#contenedorContactos{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#contenedorDecontenedores{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#contenedorPadreimg{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedorPadreimg > div > img{
+    width: 25px;
+    height: 25px;
+}
+
+.selector{
+    color: white;
+    box-sizing: border-box !important;
+    height: 23px !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 2px !important;
+    background: url(/img/mundo-traductor.svg) no-repeat 5px;
+    background-color: #706f6f;
+    text-indent: 20px;
+    width: 100% !important;
+}
+
+.contenedorSelector{
+    padding: 10px;
+}
+
+
+/* footer parte de abajo*/
+
+
+
+#ContenedorDebajo{
+    
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#quesocrema{
+    color:#fff;
+}
+
+#quesocrema1{
+    color: #fff;
+}
+
+#quesocrema:hover{
+    text-decoration: underline;
+}
+
+#quesocrema1:hover{
+    text-decoration: underline;
+}
+
+.lineaRecta{
+    
+    width: 100%;
+    box-sizing: border-box;
+    height: 0px;
+    border: 1px solid #979797;
+    margin-right: 40px;
+}

@@ -176,6 +176,15 @@ a .consultaBoton{
    padding: 25px 5px ;
 }
 
+.Chimichurri{
+    padding-top: 50px;
+    text-align:center ;
+}
+
+.icono:hover{
+    border: #004B93 solid;
+}
+
 .icono-imagen{
     width: 30%;
 }
@@ -193,6 +202,24 @@ a .consultaBoton{
     background-repeat: no-repeat;
 }
 
+.imagenDeCalificacion{
+    padding-top: 30px;
+}
+
+.quesocrema{
+    margin: 20px;
+}
+
+.botonCalificacion{
+    
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #004B93;
+}
 
 /* "Nuestros negocios" */
 
@@ -224,6 +251,11 @@ a .consultaBoton{
 }
 
 
+
+
+
+
+
 .contenedorConozcaMas{
     border: #000 solid;
     display: flex;
@@ -234,4 +266,154 @@ a .consultaBoton{
 }
 
 
+.cartas{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    
+    
+    border-radius: 5px;
+    width: 300px;
+    height: 500px;
+    
+}
 
+.ContenedorPrincipalCartas{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cartas > img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px ;
+}
+
+.cartas:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border: #004B93 solid;
+
+}
+
+
+
+
+.conozcaMover{
+    padding-top: 80px;
+}
+
+.contenedorDeCarta{
+    
+    padding: 2px 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aqui va el footer todo lo de que va abajo*/
+
+.footer{
+    
+    bottom: -5px;
+    margin-top: -5px;
+    position: relative;
+    display: flow-root;
+    height: 118px;
+    width: 100%;
+    padding: 21px 0px 0px 39px;
+    background-color: #706f6f;
+}
+
+
+#contenedorContactos{
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#contenedorDecontenedores{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#contenedorPadreimg{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#contenedorPadreimg > div > img{
+    width: 25px;
+    height: 25px;
+}
+
+.selector{
+    color: white;
+    box-sizing: border-box !important;
+    height: 23px !important;
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 2px !important;
+    background: url(/img/mundo-traductor.svg) no-repeat 5px;
+    background-color: #706f6f;
+    text-indent: 20px;
+    width: 100% !important;
+}
+
+.contenedorSelector{
+    padding: 10px;
+}
+
+
+/* footer parte de abajo*/
+
+
+
+#ContenedorDebajo{
+    
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#quesocrema{
+    color:#fff;
+}
+
+#quesocrema1{
+    color: #fff;
+}
+
+#quesocrema:hover{
+    text-decoration: underline;
+}
+
+#quesocrema1:hover{
+    text-decoration: underline;
+}
+
+.lineaRecta{
+    
+    width: 100%;
+    box-sizing: border-box;
+    height: 0px;
+    border: 1px solid #979797;
+    margin-right: 40px;
+}
